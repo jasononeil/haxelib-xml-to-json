@@ -56,6 +56,7 @@ class XmlToJson
 
 				jQ("textarea").focus(function (e) {
 					js.JQuery.cur.select();
+					return false;
 				});
 
 			});

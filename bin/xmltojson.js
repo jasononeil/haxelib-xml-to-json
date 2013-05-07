@@ -289,6 +289,7 @@ XmlToJson.main = function() {
 		});
 		new js.JQuery("textarea").focus(function(e) {
 			$(this).select();
+			return false;
 		});
 	});
 }
