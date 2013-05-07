@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="xmltojson.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+		<style>
+			p.text-center {
+				padding-top: 150px;
+			}
+			textarea {
+				font-size: 12px;
+				line-height: 13px;
+			}
+		</style>
+	</head>
+	<body class="container">
+		<div class="hero-unit">
+			<h1>haxelib.xml -> haxelib.json</h1>
+			<p>With Haxe 3, haxelib packages now take a JSON file, not an XML file.  Use this page to run a quick conversion.</p>
+		</div>
+		<div class="row">
+			<div class="span5">
+				<h3>Xml:</h3>
+				<textarea id="xml" class="span5" rows="20" wrap="off" spellcheck="false"></textarea>
+			</div>
+			<div class="span2">
+				<p class="text-center">
+					<a href="#" class="btn-primary btn-large btn" id="convert">Convert =&gt;</a>
+				</p>
+			</div>
+			<div class="span5">
+				<h3>Json:</h3>
+				<textarea id="json" class="span5" rows="20" wrap="off" spellcheck="false"></textarea>
+			</div>
+		</div>
+	</body>
+</html>

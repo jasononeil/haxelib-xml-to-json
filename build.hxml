@@ -1,0 +1,8 @@
+-main XmlToJson
+-neko bin/xmltojson.n
+
+--next 
+
+-main XmlToJson
+-js bin/xmltojson.js
+-dce full
